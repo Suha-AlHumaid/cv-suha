@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import {BsFillPersonFill} from 'react-icons/bs'
+
  function About() {
     return (
         <div className="about">
