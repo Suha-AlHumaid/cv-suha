@@ -1,10 +1,19 @@
 import React, { Component } from 'react'
-
+import About from './components/About'
+import WorkExp from './components/ WorkExpereince'
+import Skills from './components/ Skills'
+import Education from './components/ Education'
+import './style.css'
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <h1>your clean react code</h1>
+      <div className="container">
+        <div className="part2">
+        <About/>
+        <WorkExp/>
+        <Skills/>
+        <Education/>
+        </div>
       </div>
     )
   }
