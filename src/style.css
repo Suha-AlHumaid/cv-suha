@@ -66,3 +66,14 @@ h1{
     margin-bottom: 0;
     font-weight: 700;
 }
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+      }
+      .part1{
+          width: 100%;
+      }
+      .part2{
+        width: 100%;
+      }
+  }
