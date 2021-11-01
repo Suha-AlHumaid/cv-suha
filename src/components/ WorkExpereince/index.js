@@ -3,7 +3,7 @@ import './style.css'
 import {FaBuilding} from 'react-icons/fa'
  function WorkExp() {
     return (
-        <div>
+        <div className="workExp">
             <h2><FaBuilding className="icons"/>Work Experience</h2>
             <h3>Senior Front End Developer, IAG</h3>
 <p className="date">08/2016 - Present </p>

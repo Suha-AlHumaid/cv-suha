@@ -1,0 +1,19 @@
+.skills{
+    margin-bottom: 4rem;
+}
+span{
+    background-color: #5cb85c;
+    padding: 5px;
+    border-radius: 5px;
+  color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+li{
+    margin: 5px;
+    margin-bottom: 10px
+}

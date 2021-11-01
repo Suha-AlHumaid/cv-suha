@@ -2,7 +2,7 @@ import React from "react";
 import {FaGraduationCap} from 'react-icons/fa'
 function Education() {
   return (
-    <div>
+    <div className="education">
         <h2><FaGraduationCap className="icons"/>Education</h2>
       <h3>Bachelor (hons) Music</h3>
       <h3>Birmingham Conservatoire</h3>
